@@ -7,11 +7,11 @@ I bought from:
 https://detail.tmall.com/item.htm?id=43900458700&spm=a1z09.2.0.0.xFaBBB&_u=jgkdikc670
 
 #How to Use with the code
-##1.type ./port /dev/tty.wchusbserial1420 -s 9600 in the terminal, tty.xxx means your serial port(here I use a hardware module which can transform the datathrough usb)
-##2.shows the result like this:
-##➜  port git:(master) ✗ ./port /dev/tty.wchusbserial1420 -s 9600
-##(Type ~. or !. to exit, or ~b to send BREAK)
-##(Line Status: DTR, RTS)
+#####1.type ./port /dev/tty.wchusbserial1420 -s 9600 in the terminal, tty.xxx means your serial port(here I use a hardware module which can transform the datathrough usb)
+#####2.shows the result like this:
+#####➜  port git:(master) ✗ ./port /dev/tty.wchusbserial1420 -s 9600
+#####(Type ~. or !. to exit, or ~b to send BREAK)
+#####(Line Status: DTR, RTS)
 170
 170
 170
