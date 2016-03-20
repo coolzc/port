@@ -259,7 +259,7 @@ def main():
                     h_data = int(binascii.b2a_hex(buf)[6:8], 16)
                     l_data = int(binascii.b2a_hex(buf)[4:6], 16)
                     pm2_5 = ((h_data * 256 + l_data) / 10)
-                    os.write(1, str(pm2_5))
+                    os.write(1, str(pm2_5) + "mg/m3")
                     log('\n')
                 if buf == '\0':
                     log('\n(received NUL byte)\n')

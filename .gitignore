@@ -83,4 +83,4 @@ ENV/
 
 # Spyder project settings
 .spyderproject
-*.swap
+*.swp
