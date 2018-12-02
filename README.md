@@ -6,6 +6,8 @@ use this module to read data from pm2.5 detect hardware from serial port.
 I bought from:
 https://detail.tmall.com/item.htm?id=43900458700&spm=a1z09.2.0.0.xFaBBB&_u=jgkdikc670
 
+refer to this blog, we can find the /dev/ttyXXX which is the name of our equipment.
+https://huangwang.github.io/2018/11/05/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%AD%A6%E4%B9%A0%E4%B9%8BUSB%E8%BD%AC%E4%B8%B2%E5%8F%A3/
 # How to Use with the code
 ##### 1.type ./port /dev/tty.wchusbserial1420 -s 9600 in the terminal, tty.xxx means your serial port(here I use a hardware module which can transform the datathrough usb)
 ##### 2.shows the result like this:
